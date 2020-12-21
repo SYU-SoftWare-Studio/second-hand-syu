@@ -39,6 +39,7 @@ export default {
   top: 0;
   width: 100%;
   text-align: center;
+  z-index: 999999999;
 }
 .ls-navigator:hover{
   background-color: rgba(255, 255, 255, 0.938);
@@ -78,6 +79,8 @@ export default {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     overflow: hidden;
+  z-index: 999999999;
+
   }
   .ls-navigator:hover{
     background-color: white;
